@@ -5,22 +5,29 @@ Follow instrucntion  [here](https://sapper.svelte.dev/docs) for installing Sappe
 
 ## Installing Bulma 
 Inside you app folder
-
+ ```
 npm i -D bulma
-
+ ```
 or alternatively if you are taking of clone of this repo
 just run 
-npm install
-
+ ```
+ npm install
+ ```
 Follow instruction in this [blog](https://medium.com/@sean_27490/svelte-sapper-with-sass-271fff662da9) for setting up the rollup.config.js for your sapper project to understand sass version of Bulma
 
 ##  1. Parse <style lang="scss"> tags
 
 ### Install few node packages
-npm i -D svelte-preprocess autoprefixer node-sass
+
+ ```
+ npm i -D svelte-preprocess autoprefixer node-sass
+ ```
 
 ### Modify rollup.config.js by importing
+
+ ```
 import sveltePreprocess from 'svelte-preprocess';
+ ```
 
 ### Setup preprocess function
  ```
