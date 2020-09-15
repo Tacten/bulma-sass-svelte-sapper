@@ -23,8 +23,9 @@ npm i -D svelte-preprocess autoprefixer node-sass
 import sveltePreprocess from 'svelte-preprocess';
 
 ### Setup preprocess function
-
+ ```
 const preprocess = sveltePreprocess({
+
   scss: {
     includePaths: ['src'],
   },
@@ -32,9 +33,9 @@ const preprocess = sveltePreprocess({
     plugins: [require('autoprefixer')],
   },
 });
-
+```
 ### Call preprocess function
-
+ ```
 export default {
   client: {
     plugins: [
@@ -52,6 +53,7 @@ export default {
     ],
   },
 };
+```
 
 Now if you add lang=scss to style tag it will parse perfectly
 
@@ -62,6 +64,7 @@ Next you can add your global.scss and mystlyles.css as shown in the code folder 
 
 To fix VS Code to stop highlighting all the “errors” in your style tags,  create a svelte.config.js at top level of project with:
 
+ ```
 const sveltePreprocess = require('svelte-preprocess');
 module.exports = {
   preprocess: sveltePreprocess({
@@ -73,3 +76,4 @@ module.exports = {
     },
   }),
 };
+ ```
