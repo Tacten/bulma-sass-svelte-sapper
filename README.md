@@ -13,7 +13,7 @@ just run
  ```
  npm install
  ```
-### Follow instruction in this [blog](https://medium.com/@sean_27490/svelte-sapper-with-sass-271fff662da9) for setting up the rollup.config.js for your sapper project to understand sass version of Bulma
+### [Follow instruction in this blog for setting up the rollup.config.js for your sapper project to understand sass version of Bulma](https://medium.com/@sean_27490/svelte-sapper-with-sass-271fff662da9)
 
 ##  1. Parse <style lang="scss"> tags
 
