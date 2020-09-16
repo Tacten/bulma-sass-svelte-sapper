@@ -1,4 +1,4 @@
-# Integrate sass verion of Bulma with Sapper / Svelte
+# Integrate sass version of Bulma with Sapper / Svelte
 
 Follow instrucntion  [here](https://sapper.svelte.dev/docs) for installing Sapper through rollup
 
