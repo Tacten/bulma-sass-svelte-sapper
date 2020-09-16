@@ -84,7 +84,7 @@ module.exports = {
   }),
 };git
  ```
-
+You may also need to tell the Svelte extension the path to Node. If so, just open VS Code > Preferences > Settings and search for “svelte”. Right at the top, you should see: “Svelte > Language-server: Runtime”. You need to supply your Node path there. To get it, pop open a terminal and type which node, then copy/paste that path there. Mine is: /usr/local/bin/node but yours might be different.
 
 ## License
 ### MIT
